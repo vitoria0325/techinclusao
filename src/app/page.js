@@ -9,8 +9,8 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
-          height={38}
+          width={160}
+          height={26}
           priority
         />
         <ol>
@@ -56,8 +56,8 @@ export default function Home() {
             aria-hidden
             src="/file.svg"
             alt="File icon"
-            width={16}
-            height={16}
+            width={18}
+            height={18}
           />
           Learn
         </a>
@@ -70,8 +70,8 @@ export default function Home() {
             aria-hidden
             src="/window.svg"
             alt="Window icon"
-            width={16}
-            height={16}
+            width={18}
+            height={18}
           />
           Examples
         </a>
@@ -84,8 +84,8 @@ export default function Home() {
             aria-hidden
             src="/globe.svg"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width={20}
+            height={20}
           />
           Go to nextjs.org →
         </a>
