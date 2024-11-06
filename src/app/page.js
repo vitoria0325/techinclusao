@@ -1,6 +1,9 @@
-import Image from "next/image";
+import Image from "next/image-types";
 import styles from "./page.module.css";
-
+import config from '../bot/config.js';
+import messageParser from '../bot/messageParser.jsx';
+import actionProvioler from '../bot/actionProvioler';
+import Chatbot from "react-chatbot-kit";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -13,6 +16,13 @@ export default function Home() {
           height={26}
           priority
         />
+    <div>
+      <Chatbot
+       config={config}
+       messageParser={messageParser}
+       actionProvioler={actionProvioler}
+       />
+    </div>
         <ol>
           <li>
             Get started by editing <code>src/app/page.js</code>.
